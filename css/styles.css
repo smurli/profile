@@ -1,3 +1,5 @@
+
+/*** TAG Selector ***/
 body {
     background-color: #eeeeee;
 }
@@ -16,4 +18,13 @@ h1 {
 }
 h2 {
     color:#393e46;
+}
+
+.hover:hover {
+    color: #00adb5;
+}
+
+/*** Class Selector ***/
+.hr-top {
+    width: 100%;
 }
