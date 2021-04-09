@@ -2,6 +2,7 @@
 /*** TAG Selector ***/
 body {
     background-color: #eeeeee;
+    margin: 0;
 }
 
 hr {
@@ -14,7 +15,8 @@ hr {
 }
 
 h1 {
-    color: #222831;
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 h2 {
     color:#393e46;
@@ -27,4 +29,15 @@ h2 {
 /*** Class Selector ***/
 .hr-top {
     width: 100%;
+}
+
+.top-container {
+    padding-top: 20px;
+    background-color: #393e46;
+    color: #eeeeee
+}
+
+/*** ID Selector ***/
+#email {
+    color: #eeeeee
 }
